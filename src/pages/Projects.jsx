@@ -22,7 +22,7 @@ const Projects = () => {
               isBlog={false}
               title="Trello Tracker"
               description="A project management tool inspired by Trello, designed for tracking and managing tasks and team collaboration"
-              ghLink=""
+              ghLink="https://github.com/parasdiwakar1/Trello_Tracker"
               demoLink="https://trellotracker.netlify.app/"
             />
           </Col>
@@ -32,7 +32,7 @@ const Projects = () => {
               isBlog={false}
               title="Food-Website"
               description="A dynamic website showcasing various food recipes and cooking tips, designed for culinary enthusiasts."
-              ghLink=""
+              ghLink="https://github.com/parasdiwakar1/food-website"
               demoLink="https://66a60ddbc81f7a0084946b86--papaya-cajeta-90adac.netlify.app/"
             />
           </Col>
@@ -42,7 +42,7 @@ const Projects = () => {
               isBlog={false}
               title="E-Commerce-Website"
               description="An online platform for buying and selling products with a user-friendly interface and secure payment options."
-              ghLink=""
+              ghLink="https://github.com/parasdiwakar1/Shopping-cart"
               demoLink="https://shopping-website-wheat-theta.vercel.app/"
             />
           </Col>
@@ -50,7 +50,9 @@ const Projects = () => {
             <ProjectCard
               imgPath='https://i.ibb.co/Hhhrpbt/Screenshot-2024-09-02-225741.png'
               isBlog={false}
-              title="A menu display website for restaurants, showcasing various dishes with beautiful images and descriptions."
+              title='food-menu-website'
+              description="A menu display website for restaurants, showcasing various dishes with beautiful images and descriptions."
+              ghLink='https://github.com/parasdiwakar1/food-menu-website'
               demoLink="https://food-menu-website-pi.vercel.app/"
             />
           </Col>
@@ -61,6 +63,8 @@ const Projects = () => {
               isBlog={false}
               title="Photo Snap"
               description="A photo-sharing website where users can upload, share, and comment on photos, with advanced editing tools."
+              
+               ghLink='https://github.com/parasdiwakar1/Photo_Snap_Group6'
               demoLink='https://photo-snap-group6.vercel.app/'
             />
           </Col>
@@ -71,7 +75,7 @@ const Projects = () => {
               isBlog={false}
               title="StopWatch"
               description="A simple stopwatch application with start, stop, and reset functionalities for tracking time accurately."
-              
+               ghLink='https://github.com/parasdiwakar1/StopWatch'
               demoLink="https://663da9da143d03ac8d976b6a--frolicking-selkie-6a4f8c.netlify.app/"
             />
           </Col>

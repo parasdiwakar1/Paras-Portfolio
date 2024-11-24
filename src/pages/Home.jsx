@@ -44,7 +44,10 @@ const Home = () => {
                     <img src={pic3} alt='pic3' />
                   </div> */}
                   
+                  
                 </div>
+                
+                     
               </div>
             </Col>
           </Row>
