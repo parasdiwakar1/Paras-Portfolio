@@ -18,6 +18,30 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath='https://i.ibb.co/8mwnXqQ/Screenshot-2025-01-11-080410.png'
+              isBlog={false}
+              title=" Food-Website"
+              description="Built a responsive food website using React.js with dynamic categories (breakfast, lunch, dinner) and interactive
+ filters, ensuring cross-device compatibility and optimized performance"
+               ghLink='https://github.com/parasdiwakar1/food--website'
+              demoLink="https://food-website-delta-silk.vercel.app/"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath='https://i.ibb.co/4jryQxh/Screenshot-2025-01-11-080456.png  '
+              isBlog={false}
+              title="Freelancing Website Project"
+              description=" Developed a fully functional freelancing website with both user and admin panels. The platform allows users to
+ register, post projects, track progress, and leave reviews. It features secure authentication, email notifications,
+ and a database-driven system for storing user and project data. The site is SEO-optimized and ensures smooth
+ user interactions. Added multiple features for better usability and engagement"
+              //  ghLink='https://github.com/parasdiwakar1/StopWatch'
+              demoLink="https://collaboratex--eight.vercel.app/"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath='https://i.ibb.co/zFfbrXH/Screenshot-2024-09-02-225650.png'
               isBlog={false}
               title="Trello Tracker"
@@ -53,7 +77,7 @@ const Projects = () => {
               title='food-menu-website'
               description="A menu display website for restaurants, showcasing various dishes with beautiful images and descriptions."
               ghLink='https://github.com/parasdiwakar1/food-menu-website'
-              demoLink="https://food-menu-website-pi.vercel.app/"
+              demoLink="https://food-recipes-website-two.vercel.app/"
             />
           </Col>
 
@@ -65,7 +89,7 @@ const Projects = () => {
               description="A photo-sharing website where users can upload, share, and comment on photos, with advanced editing tools."
               
                ghLink='https://github.com/parasdiwakar1/Photo_Snap_Group6'
-              demoLink='https://photo-snap-group6.vercel.app/'
+              demoLink='https://photo-editor-xunn.vercel.app/'
             />
           </Col>
 
